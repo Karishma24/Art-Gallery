@@ -1,0 +1,128 @@
+<html>
+<head>
+	<link rel="icon" href="https://i.vimeocdn.com/portrait/4037665_300x300" type="image/png">
+	<title>Art Gallery</title>
+	<style>
+		body{
+		margin:0;
+		
+		}
+		.navbar{
+		background-color:white;
+		height:40px;
+		display:flex;
+		justify-content:space-between;
+		}
+		.img1{
+		height=100%;
+		width:90px;
+		}
+		a{
+		text-decoration:none;
+		color:black;
+		margin:1px 40px;
+		font-size:20;
+		padding:10px 5px;
+		font-weight:bold;
+		}
+		a:hover
+		{	border-bottom:3px solid black;
+		}
+		.main-grid{
+		display:grid;
+		grid-template-columns:2fr 1fr 1fr 1fr;
+		margin:40px 0px;
+		}
+		.grid-img{
+		width:100%;
+		height:300px;
+		}
+		.img2{
+		width:100%;
+		height:600px;
+		}
+		.item1{
+		grid-row-start: 1;
+		grid-row-end: 3;
+		}
+		.grid-img:hover{
+		transform:scale(1.1);
+		}
+		.foot{
+		background-color:black;
+		display:flex;
+		justify-content:space-between;
+		margin-top:100px;
+		height:250px;
+		}
+		.grid-element{
+		width:100%;
+		color:white;
+		margin:10px 2px;
+		padding:20px;
+		background-color:#101010;
+		font-size:20;
+		}
+		.last{
+		background-color:black;
+		color:white;
+		text-align:center;
+		font-size:20;
+		padding-bottom:10px;
+		}
+		.intro{
+		background-color:#23050e;
+		height:50px;
+		text-align:center;
+		color:white;
+		padding:25px;
+		font-size:25;
+		margin-top:20px;
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<a href="#">Work</a>
+		<a href="#">Shop</a>
+		<img class="img1" src="https://i.vimeocdn.com/portrait/4037665_300x300">
+		<a href="#">Contact</a>
+		<a href="#">About</a>
+	</div>
+	<div class="intro"> 
+	Hello, I am Karishma. I make websites!<br>Welcome to my art gallery :)
+	</div>
+	<div class="main-grid">
+		<div class="item1"><img class="grid-img img2" src="https://1aike31wshtt3k0e9u2nxtwz-wpengine.netdna-ssl.com/wp-content/uploads/2015/08/malika-favre-illustration-00.jpg"></div>
+		<div><img class="grid-img"src="https://create.adobe.com/content/microsites/inspire/en/2016/4/1/the_bold_cheeky_and_frequently_nsfw_art_of_malika_favre/_jcr_content/article-body/full_width_images_6/image2.img.jpg/1459531028407.jpg"></div>
+		<div><img class="grid-img"src="https://www.popwebdesign.net/popart_blog/wp-content/uploads/2018/04/malika-favre-pop-art-meets-op-art-3.jpg"></div>
+		<div><img class="grid-img"src="https://i.pinimg.com/originals/72/89/49/728949ba66610495e4c939c6e01f845f.png"></div>
+		<div><img class="grid-img"src="https://visi.co.za/wp-content/uploads/2018/09/MalikaFavre33.jpg"></div>
+		<div><img class="grid-img"src="https://images.squarespace-cdn.com/content/v1/5a4e3a9ee9bfdf1654db3b34/1516106945320-3VG9QFSLHJEY4XJX8HW8/ke17ZwdGBToddI8pDm48kJuvXe6WwJaVdVxgKQ46ki0UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcmEytBQn_PkgFhjWWi94bkr8101QNyiQJXjcGrJSquml7lFzv6Tcm6Oz2A6SB1geL/MALIKA%2BFAVRE%2B%289%29.jpg"></div>
+		<div><img class="grid-img"src="https://www.popwebdesign.net/popart_blog/wp-content/uploads/2018/04/malika-favre-pop-art-meets-op-art-6.jpg"></div>
+	</div>
+	<footer>
+	<div class="foot">
+		<div class ="grid-element">
+			<h2>ABOUT</h2>
+			Art Gallery is a showcase of the finest designs.
+		</div>
+		<div class ="grid-element">
+			<h2>Join Us</h2>
+			As a volunteer<br>
+			As a member<br>
+			As an intern<br>
+			As a full time employee<br>
+			As a partner.
+		</div>
+		<div class ="grid-element">
+			<h2>CONTACT</h2>
+			karishmagupta144@gmail.com
+			<hr width="60%" align="left">
+			8447168666
+		</div>
+	</div>
+	<div class="last">Made with love by Karishma Gupta.</div>
+	</footer>
+</body>
+</html>
